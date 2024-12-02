@@ -18,11 +18,12 @@
             <li>I am a list element</li>
         </ol>
     </div>
+    <p>The top navigation bar and the footer were loaded using ajax and jQuery.</p>
     <div id="footer-holder"></div>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script>
-    $("#top-nav-holder").load("nav-bar.html")
-    $("#footer-holder").load("footer.html")
+    $("#top-nav-holder").load("include/nav-bar.html")
+    $("#footer-holder").load("include/footer.html")
 </script>
 </html>

@@ -5,7 +5,7 @@
     --kalebs-blue: rgb(104, 104, 255);
 }
 * {
-    background-color: var(--light-grey);
+    background-color: var(--dark-grey);
     color: var(--soft-white);
 
     font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@ a {
 nav#top-nav{
     overflow: hidden;
 }
-nav#top-nav *{
+nav#top-nav a, nav#top-nav button{
     margin: 0px;
     padding: 10px;
     float: left;
@@ -50,6 +50,7 @@ footer h1{
 }
 footer li{
     font-size: 0.8em;
+    list-style-type: none;
 }
 footer ul{
     display: inline-block;
