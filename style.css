@@ -12,8 +12,7 @@ a {
     color: rgb(104, 104, 255);
 }
 div#top-nav {
-    margin: 0px;
-    height: fit-content;
+    overflow: hidden;
 }
 div#top-nav a {
     margin: 0px;
