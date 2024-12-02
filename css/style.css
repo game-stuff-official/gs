@@ -20,12 +20,12 @@ a {
 code{
     border-style: solid;
     border-radius: 5px;
-    padding: 2px;
+    padding: 3px;
     border-width: 2px;
     border-color: var(--light-grey);
     background-color: black;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 /*
     Styling of the top navigation bar.
@@ -85,4 +85,7 @@ footer ul{
 */
 #content {
     margin: 15px;
+}
+#content p{
+    line-height: 1.5em;
 }
