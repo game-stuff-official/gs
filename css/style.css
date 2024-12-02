@@ -39,6 +39,7 @@ nav#top-nav *#active{
 }
 nav#top-nav *#light-mode{
     float: right;
+    border-width: 0px;
 }
 footer{
     background-color: var(--light-grey);
