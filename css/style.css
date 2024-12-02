@@ -17,6 +17,16 @@ body {
 a {
     color: var(--kalebs-blue);
 }
+code{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px;
+    border-width: 2px;
+    border-color: var(--light-grey);
+    background-color: black;
+    font-family: monospace;
+    font-size: 1em;
+}
 /*
     Styling of the top navigation bar.
 */
@@ -59,16 +69,16 @@ footer h1{
 footer h2{
     font-size: 1em;
     font-weight: bold;
-    padding: 10px;
 }
 footer li{
     font-size: 0.8em;
-    list-style-type: none;
     padding-bottom: 15px;
 }
 footer ul{
     display: inline-block;
     margin: 15px;
+    list-style-type: none;
+
 }
 /*
     Styling of content.
