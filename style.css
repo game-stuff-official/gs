@@ -11,10 +11,10 @@ body {
 a {
     color: rgb(104, 104, 255);
 }
-div#top-nav {
+nav#top-nav{
     overflow: hidden;
 }
-div#top-nav a {
+nav#top-nav *{
     margin: 0px;
     padding: 10px;
     float: left;
@@ -24,10 +24,13 @@ div#top-nav a {
     /* color: rgb(104, 104, 255); */
     text-decoration: none;
 }
-div#top-nav a:hover{
+nav#top-nav *:hover{
     background-color: black;
 }
-div#top-nav a:active{
+nav#top-nav *#active{
     background-color:rgb(104, 104, 255);
     color: black;
+}
+nav#top-nav *#light-mode{
+    float: right;
 }

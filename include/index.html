@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Including Elements Demo</title>
+</head>
+<body>
+    <div id="top-nav-holder"></div>
+    <div id="content">
+        <h1>I am title of the webpage</h1>
+        <p>I am a paragraph in the webpage</p>
+        <ol>
+            <li>I am a list element</li>
+            <li>I am a list element</li>
+            <li>I am a list element</li>
+            <li>I am a list element</li>
+        </ol>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+    $("#top-nav-holder").load("nav-bar.html")
+</script>
+</html>
