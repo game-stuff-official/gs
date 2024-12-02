@@ -17,6 +17,9 @@ body {
 a {
     color: var(--kalebs-blue);
 }
+/*
+    Styling of the top navigation bar.
+*/
 nav{
     overflow: hidden;
 }
@@ -41,6 +44,9 @@ nav #light-mode{
     float: right;
     border-width: 0px;
 }
+/*
+    Styling of the footer
+*/
 footer{
     background-color: var(--light-grey);
 }
@@ -56,5 +62,11 @@ footer li{
 }
 footer ul{
     display: inline-block;
+    margin: 15px;
+}
+/*
+    Styling of content.
+*/
+#content {
     margin: 15px;
 }
