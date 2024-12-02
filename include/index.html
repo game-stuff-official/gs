@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Including Elements Demo</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div id="top-nav-holder"></div>
@@ -17,9 +18,11 @@
             <li>I am a list element</li>
         </ol>
     </div>
+    <div id="footer-holder"></div>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script>
     $("#top-nav-holder").load("nav-bar.html")
+    $("#footer-holder").load("footer.html")
 </script>
 </html>
