@@ -4,18 +4,31 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
-link {
-    text-decoration: none;
+body {
+    padding: 0px;
+    margin: 0px;
+}
+a {
     color: rgb(104, 104, 255);
 }
 div#top-nav {
     margin: 0px;
+    height: fit-content;
 }
-div a {
+div#top-nav a {
     margin: 0px;
-    padding: 5px;
-    height: 15px;
+    padding: 10px;
+    float: left;
     text-align: center;
     background-color: rgb(64, 64, 64);
     font-weight: bolder;
+    /* color: rgb(104, 104, 255); */
+    text-decoration: none;
+}
+div#top-nav a:hover{
+    background-color: black;
+}
+div#top-nav a:active{
+    background-color:rgb(104, 104, 255);
+    color: black;
 }
