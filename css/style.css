@@ -89,3 +89,9 @@ footer ul{
 #content p{
     line-height: 1.5em;
 }
+/*
+    Styling of outline
+*/
+#outline ul{
+    list-style: upper-roman;
+}
