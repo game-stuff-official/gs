@@ -30,10 +30,10 @@ code{
 /*
     Styling of the top navigation bar.
 */
-nav{
+.top-nav{
     overflow: hidden;
 }
-nav a, nav button{
+.top-nav a, .top-nav button{
     margin: 0px;
     font-size: 1em;
     padding: 10px;
@@ -44,14 +44,14 @@ nav a, nav button{
     color: var(--kalebs-blue);
     text-decoration: none;
 }
-nav :hover{
+.top-nav :hover{
     background-color: black;
 }
-nav *#active{
+.top-nav *#active{
     background-color: var(--kalebs-blue);
     color: black;
 }
-nav #light-mode{
+.top-nav #light-mode{
     float: right;
     border-width: 0px;
 }
